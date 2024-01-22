@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC_Responsive Web Design_Challenge_Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Dream Vacation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Weird Survey</h1>
+    <p id="description">Thank you for helping us by providing your details</p> 
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name: <input id="name" name="name" type="text" placeholder="John Snow" required /></label>
+        <label id="email-label">Email: <input id="email" name="email" type="email" placeholder="john.snow@smile.com" required /></label>
+        <label id="number-label">Age: <input id="number" name="number" type="number" min="13" max="120" placeholder="23" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown">What did you have for breakfast today?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Nothing</option>
+            <option value="2">Fresh air</option>
+            <option value="3">Coffee</option>
+            <option value="4">Something sweet</option>
+            <option value="5">Something salty</option>
+            <option value="6">None of the above</option>
+            <option value="7">Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <div class="fieldset-wrapper">
+        <legend>Rising habits (required)</legend>
+        <label for="early-bird"><input id="early-bird" type="radio" name="rising habits" class="inline" value="early-bird" checked/> Early bird</label>
+        <label for="in-between"><input id="in-between" type="radio" name="rising habits" class="inline" value="in-between"/> In-between</label>
+        <label for="sleep-in"><input id="sleep-in" type="radio" name="rising habits" class="inline" value="sleep-in"/> Sleep in</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <label for="dream">What did you dream about last night?
+          <textarea id="dream" name="dream" rows="3" cols="30" placeholder="In my dream I was a mermaid..."></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" name="terms-and-conditions" value="terms-and-conditions" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <label for="marketing">
+        <input class="inline id="marketing" type="checkbox" name="marketing" value="marketing" /> I would like to receive a weekly newsletter to learn more about myself and keep growing</a>
+      </label>
+      <input id="submit" type="submit" value="Submit" />
+  </body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
